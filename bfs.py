@@ -19,6 +19,7 @@ def bfs(graph, start):
 
 def bfs_paths(graph, start, goal):
     queue = [(start, [start])]
+    #create the queue, start has the element and [start] has element to reach toward it
     while queue:
         print queue
         vertex, path = queue.pop(0)

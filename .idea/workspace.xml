@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e60d77a-2cbe-4a3d-812a-4426bee9e4e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/bfs_practice.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/dfs_practice.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bfs.py" afterPath="$PROJECT_DIR$/bfs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linkedlist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/linkedlist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mergesort.py" afterPath="$PROJECT_DIR$/mergesort.py" />
     </list>
     <ignored path="algorithm-for-interview.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bfs.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bfs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bfs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="335">
               <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linkedlist.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practice/linkedlist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-215">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linkedlist.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linkedlist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-289">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -73,6 +93,8 @@
       <list>
         <option value="$PROJECT_DIR$/practice/bfs_practice.py" />
         <option value="$PROJECT_DIR$/practice/dfs_practice.py" />
+        <option value="$PROJECT_DIR$/linkedlist.py" />
+        <option value="$PROJECT_DIR$/practice/linkedlist.py" />
       </list>
     </option>
   </component>
@@ -148,7 +170,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.dfs_practice">
+  <component name="RunManager" selected="Python.linkedlist (1)">
     <configuration default="false" name="bfs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,6 +218,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="algorithm-for-interview" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/dfs_practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="linkedlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="algorithm-for-interview" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedlist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="linkedlist (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="algorithm-for-interview" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/linkedlist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -334,16 +390,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.bfs" />
       <item index="1" class="java.lang.String" itemvalue="Python.bfs_practice" />
       <item index="2" class="java.lang.String" itemvalue="Python.dfs_practice" />
+      <item index="3" class="java.lang.String" itemvalue="Python.linkedlist" />
+      <item index="4" class="java.lang.String" itemvalue="Python.linkedlist (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.dfs_practice" />
-        <item index="1" class="java.lang.String" itemvalue="Python.bfs_practice" />
-        <item index="2" class="java.lang.String" itemvalue="Python.bfs" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.linkedlist (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.linkedlist" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dfs_practice" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bfs_practice" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bfs" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +424,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -420,8 +480,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bfs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="335">
           <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/linkedlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>

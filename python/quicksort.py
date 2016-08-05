@@ -16,11 +16,11 @@ def quickSort(toSort):
     #print pivot        
     #print low
     sortedList = quickSort(low)
-    print "Low sorting done"
-    print sortedList
+    #print "Low sorting done"
+    #print sortedList
     sortedList.append(pivot)
     sortedList.extend(quickSort(high))
-    print "High sorting done"
+    #print "High sorting done"
     return sortedList
  
 def main():

@@ -55,7 +55,7 @@ class LinkedList (object):
             if this_node.get_data() == d:
                 return d
             else:
-                this_node = this_node.get_next()
+                    this_node = this_node.get_next()
         return None
 
 myList = LinkedList()

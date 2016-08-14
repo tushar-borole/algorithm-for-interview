@@ -24,9 +24,11 @@ def quickSort(toSort):
     return sortedList
  
 def main():
-    l = [1,3,6,9, 200, 100, 76, 45, 23, 44, 81, 121, 11]
+    l = [1,3,6,9, 200, 5678, 76, 45, 23, 44, 81, 121, 11]
     sortedList = quickSort(l)
     print sortedList
  
 if __name__ == '__main__':
     main()
+
+#O(n log(n))

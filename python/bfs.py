@@ -21,11 +21,8 @@ def bfs_paths(graph, start, goal):
     queue = [(start, [start])]
     #create the queue, start has the element and [start] has element to reach toward it
     while queue:
-        print queue
         vertex, path = queue.pop(0)
-        print "---"+str(graph[vertex])+'---'+str(set(path))
         non_visited_node=graph[vertex] - set(path)
-        print "---"+str(non_visited_node)
         for next in non_visited_node:
             if next == goal:
                 yield path + [next]
